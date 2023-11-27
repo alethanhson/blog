@@ -12,6 +12,11 @@ const userRouter: Array<RouteRecordRaw> = [
         path: '/',
         name: 'home',
         component: () => import('@/pages/user/home/HomeComponent.vue')
+      },
+      {
+        path: '/detail',
+        name: 'detail',
+        component: () => import('@/pages/user/home/DetailComponent.vue')
       }
     ]
   }
